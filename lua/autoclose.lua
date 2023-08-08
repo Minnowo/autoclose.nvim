@@ -17,11 +17,11 @@ local config = {
 
       [" "] = { escape = false, close = true, pair = "  " },
 
-      ["<BS>"] = {},
-      ["<C-H>"] = {},
-      ["<C-W>"] = {},
-      ["<CR>"] = { disable_command_mode = true },
-      ["<S-CR>"] = { disable_command_mode = true },
+      -- ["<BS>"] = {},
+      -- ["<C-H>"] = {},
+      -- ["<C-W>"] = {},
+      -- ["<CR>"] = { disable_command_mode = true },
+      -- ["<S-CR>"] = { disable_command_mode = true },
    },
    options = {
       disabled_filetypes = { "text" },
